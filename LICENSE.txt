@@ -1,1 +1,7 @@
 hello world
+test change something
+作者概念图是错误的！请大家不要被误导了，git diff 确实是比较当前文件和暂存区文件差异，什么是暂存区？就是你
+还没有执行 git add 的文件！！！！！
+而文章中说 add 之后文件放到暂存区是错误的！！！
+
+可以实验一下 你修改 readme.txt ,不做 add 操作，然后 git diff 会显示文件做了那些改动，但是你 add 之后，git diff 就没有东西了
